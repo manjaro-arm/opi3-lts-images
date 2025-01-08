@@ -15,7 +15,7 @@ jobs:
       matrix:
         DEVICE: [opi3-lts]
         EDITION: [gnome,kde-plasma,mate,minimal,sway,xfce]
-        BRANCH: [unstable]
+        BRANCH: [testing]
     steps:
       -
         id: time
